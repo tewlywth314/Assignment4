@@ -1212,16 +1212,25 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 616982760}
   m_PrefabAsset: {fileID: 0}
---- !u!138 &1385240286
-FixedJoint:
+--- !u!145 &1385240283
+SpringJoint:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1385240282}
   m_ConnectedBody: {fileID: 1830021826}
-  m_BreakForce: 5000
-  m_BreakTorque: Infinity
+  m_Anchor: {x: 0, y: 1.51, z: 0}
+  m_AutoConfigureConnectedAnchor: 0
+  m_ConnectedAnchor: {x: 0.21899998, y: 1.99, z: -0.02255}
+  serializedVersion: 2
+  m_Spring: 100
+  m_Damper: 0.2
+  m_MinDistance: 0
+  m_MaxDistance: 0
+  m_Tolerance: 0.025
+  m_BreakForce: 10000
+  m_BreakTorque: 10000
   m_EnableCollision: 1
   m_EnablePreprocessing: 1
   m_MassScale: 1
